@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+//Side note: in order for the styled component to work you MUST use semicolons within the backticks
+
 export const StyledCell = styled.div`
   width: auto;
   background: rgba(${props => props.color}, 0.8);
